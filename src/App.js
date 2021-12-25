@@ -2,12 +2,8 @@ import "./App.css";
 import Home from "./pages/Home";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import {
-  BrowserRouter as Router,
-  HashRouter,
   Routes,
   Route,
-  useRoutes,
-  Link,
 } from "react-router-dom";
 import Edit from "./pages/Edit";
 

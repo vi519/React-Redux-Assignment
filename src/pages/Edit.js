@@ -4,6 +4,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { getUserById, UpdateById } from "../redux/actions";
 function Edit() {
+
   const [state, setState] = useState({
     first_name: "",
     last_name: "",
@@ -11,6 +12,7 @@ function Edit() {
     avatar: "",
   });
   //const history = useHistory();
+  
   const navigate = useNavigate();
   let { id } = useParams();
   let dispatch = useDispatch();
@@ -38,6 +40,7 @@ function Edit() {
     navigate("/");
   }
   function handleBackNavigation() {
+  
     navigate("/");
   }
 

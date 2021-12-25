@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import{Provider} from 'react-redux'
 import reportWebVitals from './reportWebVitals';
-import {BrowserRouter, useHistory } from 'react-router-dom'
+import {BrowserRouter} from 'react-router-dom'
 import store from './redux/store'
 
 ReactDOM.render(
